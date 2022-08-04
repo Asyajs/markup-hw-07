@@ -20,4 +20,35 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   }
   
+  // button portfolio 
+
+  .buttons {
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+
+    .button-item {
+      margin: 0 10px;
+      padding: 6px 22px;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 26px;
+      background-color: var(--secondary-bg-color);
+      color: var(--main-text-color);
+      transition-property: background-color color; 
+      transition-duration: 250ms;
+      transition-timing-function: var(--transition-timing);
+    }
+
+    .button-item:hover {
+      background-color: var(--accent-color);
+      color: var(--main-bg-color);
+      box-shadow: var(--card-shadow);
+    }
+    
+  }
+  
+
+
 
